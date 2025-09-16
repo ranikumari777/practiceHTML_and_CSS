@@ -1,0 +1,412 @@
+                        
+						HTML NOTES
+					===================	
+=>stand for hypertext markup languge its is design satic web  page
+=>founder tin berners(1994)is develop by html
+=>it is conrolled and managed by an organsotion name w3c(world wide web consortium)
+=>	types of tags
+a)opening tag			
+b)closing tag			
+======================================
+used for head tag
+<title></title>
+<style></style>
+<link/>
+<script></script>
+<noscript></noscript>
+<meta>
+<base/>
+<command></command>
+=========================================
+
+
+
+===============================================
+<font  ></font>
+=>sixe ,color, face
+
+<img/>
+=>src
+alt
+title
+height
+width
+===================================
+strik tag
+=><s></s>
+<del></del>
+==============================
+<marquee></maequee>
+
+=>direction| left right up down
+=>behavior||scroll alternate slide
+=>bgcolor
+=>height
+=>width
+=>vspace  ||for to top and button outer space.
+=>hspace  || for left and right outer space
+=>scrollamount  ||speed management
+=>onmouseover ||stop()
+=>loop
+=>onmouseleave ||start()
+============================
+Multimedia Tag
+
+1.vedio
+2.audio
+
+1.<vedio></vedio>
+=>controls
+=>src
+=>poster
+=>height
+=>width
+=>autoplay
+=>muted
+
+2.<audio></audio>
+=>controls
+=>src
+=>height
+=>width
+=>autoplay
+=>muted
+==================================================
+button types:
+1.submit =>to sumit form data on the web
+2.reset =>to reset value tp form control(empty)
+3.dummy button=>to run client side script
+==========================================
+draplist||combo box
+
+<select></select>//parent
+<option></option>//child
+a.disabled
+b.selected
+=================================
+anger tag
+<a href=""></a>//link karne ke liye
+===================================
+otpgroup ||combobox
+
+<select>
+<otpgroup label="">
+<option></option>
+<option></option>
+<option></option>
+</otpgroup>
+</select>
+
+a.otpgroup
+=>label
+
+===================================
+datalist tag used.
+
+<input/ list="a">
+<datalist id="a">
+<option></option>
+<option></option>
+<option></option>
+</datalist>
+==================================
+<legend></legend>
+
+=>highlight karne ke liye text box 
+
+<legend>
+<input type="text"/>
+</legend>
+
+=================================
+fieldset use.
+
+<fieldset>
+<legend> type here </legend>
+</fieldset> 
+
+=================================
+textarea tag container tag
+
+<textarea></textarea>
+=>rows
+=>cols
+
+==================================
+method
+1.get||by default
+----------------------------------
+=>less secure.
+=>used for small form
+=>url length limit 2048character
+=>file upload is not possible
+=>
+=>
+
+
+
+2.post
+----------------------------------
+=>more secure
+=>used for big form
+=>no url length limit available
+=>file upload is  possible
+----------------------------
+enctype |text/plain ||multipart/form-data
+====================================
+css
+===================================
+=>css stand for cascading stylesheet
+=>css was develop by hakon wium lie in 1996
+=>css is controled and manage by w3c
+=>css described how html tag are to be display onweb
+
+
+types of css
+-----------------------------------
+1.internal css
+2.external css
+3.inline css
+ 
+ 
+1.internal css
+--------------------
+<style>
+selector
+{
+property:value;
+property:value;
+property:value;
+property:value;
+or
+property:value;property:value;property:value;
+}
+</style> 
+
+selector
+==============
+=>selsector is used to selector html tag to apply css
+
+types of selector
+=======================
+1.tag selector
+1.id selector  //# used select
+1.class selector
+1.group selector
+1.universal selector
+1.compound selector
+1.pseudo selector
+1.parent child selector
+1.adject selector
+1.nth selector
+
+==================================
+border:thikness style color;
+border:50px dotted red;
+style=>dotted,groove,dashed,double,solid
+---------------------------------------------
+border:10px solid red;
+border:10px double red;
+border:10px dotted red;
+border:10px dashed red;
+border:10px groove red;
+--------------------------------------------
+3.inline css=>inline css is global attribute.it is apply in 'style' attibutes.
+example: 
+
+<h1 style="property:value;property:value;property:value;"></h1>
+---------------------------------------------
+transition:property time,property time;
+=>transition:background 2s,color 4s;
+transition:all time;
+transition:all 2s;
+
+
+text-transform:lowercase;
+text-transform:uppercase;
+text-transform:capitalize;
+box-sizing:border-box;//padding pe khali or border pe kam krega.margin pe nhi karta.
+line-height:for used gaping(30px;)
+word-spacing:for gap text word space(30px)
+letter-spacing:for gap text letter gap.
+------------------------------------------------
+unordered list type
+1.unordered list
+2.ordered list 
+3.difinition list
+
+1.unordered list=>
+<ul type="square">
+<li><li>
+<li><li>
+</ul>
+
+2.ordered list=>
+<ol>
+<li></li>
+<li></li>
+</ol>
+
+3.difinition list
+<dl>
+<dt></dt>//difinition text
+<dd></dd>
+<dd></dd>
+</dl>
+=============================================
+selector:hover
+{
+property:value;
+property:value;
+property:value;
+property:value;
+property:value;
+}
+==============================================
+<table border="1">
+<tr>
+<th></th>//for uesed heading columns
+</tr>
+<tr>//used for row.
+<td></td>//used for colum
+</tr>
+<table>
+
+================================================
+linear-gradient
+repeating-linear-gradient
+radial-gradient
+repeating-radial-gradient
+conic-gradient
+repeating-conic-gradient
+==================================================
+background:linear-gradient(red,yellow);
+rgba(0,0,0,1);=>black
+rgba(255,255,255,1);=>white
+
+==================================================
+transform:
+===========
+rotate()|| skew ||skewX || skewY ||translate || translateX ||translateY || scale ||
+scaleX || scaleY ||
+======================================================================
+animation
+**************
+synatx
+
+@keyframes animationName
+{
+from
+{
+property:value;
+property:value;
+property:value;
+}
+to 
+{
+property:value;
+property:value;
+property:value;
+}
+}
+
+Exa:
+=========
+@keyframes myanimation
+{
+from
+{
+background:red;
+}
+to
+{
+background:green;
+}
+}
+=================================
+animation-name
+animation-duration:time in seconds 2s
+animation-direction:normal |reverse |alternate |alternate-reverse
+animation-iteration-count |number |infinite |
+animation-delay:
+animation-play-state :running ||paused
+animation-fill-mode :none|forwords ||backwords||both||none
+========================================================
+@keyframes animationName
+{
+0%
+{
+property:value;
+}
+100%
+{
+property:value;
+}
+}
+=====================================================
+0%
+50%
+100%
+==================================================
+0%{}
+20{}
+40{}
+60{}
+
+***************************************
+animation-timing-function
+**************************
+linear=>same speed 
+ease-in-out=>start slow and end slow
+ease-in =>satrt slow
+ease-out =>ending slow
+ease =>satrt slow then fast and end slow
+steps =>
+===============================================
+1.animation
+2.animation-name
+3 animation-duration
+4 animation-timing-function
+5 animation-delay
+6 animation-iteration-count
+7 animation-direction
+8 animation-play-state
+9 animation-fill-mode
+************************************************
+position:static ||absolute ||relative ||fixed ||sticky
+==========================================================
+top ||bottom
+left ||right
+==============================
+<details></details>
+<summary></summary> //for used descripison
+==============================
+<details>
+<summary>summary training</summary>
+<p></p>
+</details>
+==================================
+menu
+*******
+<nav>
+<ul>
+<a href="#"><li>home</li></a>
+</ul>
+</nav>
+
+menu
+*******
+<div>
+<ul>
+<a href="#"><li>home</li></a>
+</ul>
+</div>
+
+=>menu banne ke liye nav aur div dono ka use kiya jata hai.
+=>esmay ankar tag use kiya jata hai link ke liye .
+=>koi v list ka used kiya jata hai
+==================================
+
+display:none    //kuch nhi dikhega
+display:block   //sab kuch dikhega
+list-style:none    //matlb type ka value hatane ke liye kiya jata hai.

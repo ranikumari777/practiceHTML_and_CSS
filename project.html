@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #reg{
+            margin-left:600;
+            padding-top: 10px;
+            word-spacing: 2px;
+             
+        }
+
+        #h{
+            margin-top: 20px;
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="h">
+        <div>
+            <h1>Registration page</h1>
+        </div>
+    </div>
+    <div class="container" id="reg">
+           <div class="row">
+            <div class="col-sm-12">
+                  <form>
+                        <lable id="name" for="name">Name</lable>
+                        <lable>
+                            <input type="text" placeholder="name here..." id="name" for="name"/>
+                        </lable><br>
+                        <label id="gender" for="gender">Gender</label>
+                        <label>
+                            <input type="radio" value="Female" id="gender" for="gender" name="gender" checked/>Female
+                            <input type="radio" value="Male" id="gender" for="gender" name="gender"/>Male
+                        </label><br>
+                        <label id="mobile" for="mobile">Mobile</label>
+                        <label>
+                            <input type="text" placeholder="numberss..." id="mobile" for="mobile"/>
+                        </label><br>
+                        <label id="date" for="date">DOB</label>
+                        <label>
+                            DOB<input type="date" id="date" for="date" />
+                        </label><br>
+                        <label id="Qualification" for="Qualification">Qualification</label>
+                        <label>
+                            <select  for="Qualification">
+                                <option id="Qualification">MCA</option>
+                                <option id="Qualification">BCA</option>
+                                <option id="Qualification">B.tech</option>
+                                <option id="Qualification">M.tech</option>
+                            </select>
+                        </label><br>
+                       <label>
+                        <input type="submit" value="Save"/>
+                        <a href="#"><input type="button" value="login"/></a>
+                       </label>
+                  </form>  
+            </div>
+           </div>
+    </div>
+</body>
+</html>

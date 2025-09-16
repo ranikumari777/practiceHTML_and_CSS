@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+nav
+{
+border:1px solid black;
+width:800px;
+height:35px;
+border-radius:5px;
+margin:0px auto;
+}
+nav ul
+{
+list-style:none;
+}
+nav ul li
+{
+background:blue;
+border-radius:10px;
+height:40px;
+width:120px;
+color:white;
+text-align:center;
+line-height:40px;
+float:left;
+transform:translateY(-15px);
+margin-right:5px;
+box-sizing:border-box;
+}
+nav ul ul
+{
+transform:translate(-40px,15px);
+display:none;
+}
+#g:hover ul
+{
+display:block;
+}
+</style>
+</head>
+<body>
+<nav>
+<ul>
+<a href="#"><li>Home</li></a>
+<a href="#"><li>about us</li></a>
+<a href="#"><li>contacter</li></a>
+<li id="g">Gallery
+<ul>
+<a href="#"><li>vedio</li></a>
+<a href="#"><li>audio</li></a>
+</ul>
+</li>
+<a href="#"><li>resiter</li></a>
+<a href="#"><li>login</li></a>
+</ul>
+</nav>
+</body>
+</html>
