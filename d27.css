@@ -1,0 +1,42 @@
+<html>
+<head></head>
+<body>
+h1/*tag selector or element selector*/
+{
+color:red;
+background:yellow;
+font-size:50px;
+border-radius:80px;
+text-align:center;
+/*border:10px solid red;*/
+/*border:10px double red;
+border:10px dotted red;
+border:10px dashed red;*/
+border:10px groove red;
+}
+p
+{
+color:aqua;
+background:purple;
+font-size:50px;
+border-radius:50px 50px 0px 0px;
+text-align:center;
+}
+#p1
+{
+color:aqua;
+background:purple;
+font-size:50px;
+border-radius:50px 50px 0px 0px;
+text-align:center;
+}
+#p2
+{
+color:red;
+background:yellow;
+font-size:50px;
+border-radius:0px 70px 0px 70px;
+text-align:center;
+}
+</body>
+</html>
